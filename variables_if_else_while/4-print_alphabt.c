@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*
-*main - entry point of program that wrie prints the alphabet in lowercase,exluding 'q' and 'e'
-*return: always 0 (success)
+/**
+* main - Prints the alphabet in lowercase, excluding 'q' and 'e'
+* Description: This program uses a loop to print each lowercase letter
+* except 'q' and 'e', followed by a newline.
+* Return: Always 0 (Success)
 */
 int main(void)
 {
