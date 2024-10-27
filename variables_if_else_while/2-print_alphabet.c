@@ -1,8 +1,12 @@
 #include <stdio.h>
-/*
- * main - Prints the alphabetic
- * return: always 0 (success)
- */
+/**
+* main - Program entry point that prints the alphabet in lowercase
+*
+* Description: Uses a loop to print each letter of the alphabet
+* in lowercase, followed by a newline.
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char c;
