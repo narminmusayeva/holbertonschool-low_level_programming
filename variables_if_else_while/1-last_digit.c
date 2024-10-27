@@ -7,10 +7,8 @@
 #include <stdio.h>
 /**
 * main - Program entry point that determines the last digit of a random number
-*
 * Description: Generates a random number and prints whether the last digit 
 * is greater than 5, is 0, or is less than 6 and not 0.
-*
 * Return: Always 0 (Success)
 */
 int main(void)
