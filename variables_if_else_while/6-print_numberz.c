@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point of the program
+ *
  * Description: Print numbers from 0 to 9 using puthcar
- * return: always 0 (success)
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
