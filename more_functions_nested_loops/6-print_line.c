@@ -2,6 +2,7 @@
 /**
  * print_line - draws a straight line
  * _putchar: print draw a straight or new line
+ * @n: The number of underscores to be printed.
  */
 void print_line(int n)
 {
