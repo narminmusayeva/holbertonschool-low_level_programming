@@ -21,6 +21,7 @@ printf("Fizz ");
 else if (i % 5 == 0)
 {
 printf("Buzz ");
+putchar ('\n');
 }
 else if (i % 15 == 0)
 {
