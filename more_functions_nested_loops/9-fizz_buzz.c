@@ -25,12 +25,13 @@ printf("Buzz ");
 else if (i % 15 == 0)
 {
 printf("FizzBuzz ");
+putchar ('\n');
 }
 else
 {
 printf("%d ", i);
+}
+}
 putchar ('\n');
-}
-}
 return (0);
 }
