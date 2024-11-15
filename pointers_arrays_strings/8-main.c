@@ -1,22 +1,26 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
-  * print_array - Prints n elements of an array of integers
-  * @a: Array of integers
-  * @n: Number of elements of the array to be printed
-  *
-  * Return: void
-  */
-void print_array(int *a, int n)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-int j;
-for (j = 0; j < n; j++)
-{
-printf("%d", a[j]);
-if (j != (n - 1))
-{
-printf(", ");
-}
-}
-printf("\n");
+    int c3[3][3] = {
+        {0, 1, 5},
+        {10, 11, 12},
+        {1000, 101, 102},
+    };
+    int c5[5][5] = {
+        {0, 1, 5, 12124, 1234},
+        {10, 11, 12, 123521, 12512},
+        {1000, 101, 102, 12545, 214543435},
+        {100, 1012451, 11102, 12545, 214543435},
+        {10, 12401, 10452, 11542545, 1214543435},
+    };
+    print_diagsums((int *)c3, 3);
+    print_diagsums((int *)c5, 5);
+    return (0);
 }
