@@ -1,23 +1,28 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 /**
- * _strdup - Copies a string to newly allocated memory
- * @str: The string to duplicate
- * Return: Pointer to the duplicated string or NULL if failed
+ * _strdup - check the code for Holberton School students.
+ * @str: argument for array
+ * Return: Always 0.
  */
 char *_strdup(char *str)
 {
-char *arr;
-if (str == NULL)
+char *my_array;
+int i, len;
+my_array = malloc(sizeof(str));
+i = len = 0;
+while (str[i] != '\0')
 {
-return (NULL);
+len++;
+i++;
 }
-arr = (char *)malloc(strlen(str) + 1);
-if (arr == NULL)
+if (my_array == NULL)
+return (NULL);
+i = 0;
+while (str[i] != '\0')
 {
-return (NULL);
+my_array[i] = str[i];
+i++;
 }
-strcpy(arr, str);
-return (arr);
+return (my_array);
 }
